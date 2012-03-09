@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8714C45C1509884900E72D53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8714C45B1509884900E72D53 /* UIKit.framework */; };
+		8714C45E1509884900E72D53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8714C45D1509884900E72D53 /* Foundation.framework */; };
+		8714C4601509884900E72D53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8714C45F1509884900E72D53 /* CoreGraphics.framework */; };
+		8714C4661509884900E72D53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8714C4641509884900E72D53 /* InfoPlist.strings */; };
+		8714C4681509884900E72D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714C4671509884900E72D53 /* main.m */; };
+		8714C46C1509884900E72D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714C46B1509884900E72D53 /* AppDelegate.m */; };
+		8714C46F1509884900E72D53 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8714C46D1509884900E72D53 /* MainStoryboard.storyboard */; };
+		8714C4721509884900E72D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714C4711509884900E72D53 /* ViewController.m */; };
+		8714C47A1509898200E72D53 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714C4791509898200E72D53 /* MasterViewController.m */; };
+		8714C47D1509898E00E72D53 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714C47C1509898E00E72D53 /* DetailViewController.m */; };
+		8714C49115098B0600E72D53 /* EdgeLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8714C48C15098B0600E72D53 /* EdgeLine.png */; };
+		8714C49215098B0600E72D53 /* RoundEdgeLower.png in Resources */ = {isa = PBXBuildFile; fileRef = 8714C48D15098B0600E72D53 /* RoundEdgeLower.png */; };
+		8714C49315098B0600E72D53 /* RoundEdgeLower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8714C48E15098B0600E72D53 /* RoundEdgeLower@2x.png */; };
+		8714C49415098B0600E72D53 /* RoundEdgeUpper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8714C48F15098B0600E72D53 /* RoundEdgeUpper.png */; };
+		8714C49515098B0600E72D53 /* RoundEdgeUpper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8714C49015098B0600E72D53 /* RoundEdgeUpper@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8714C4571509884900E72D53 /* TowPaneViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowPaneViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8714C45B1509884900E72D53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8714C45D1509884900E72D53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8714C45F1509884900E72D53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8714C4631509884900E72D53 /* TowPaneViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TowPaneViewController-Info.plist"; sourceTree = "<group>"; };
+		8714C4651509884900E72D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8714C4671509884900E72D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8714C4691509884900E72D53 /* TowPaneViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TowPaneViewController-Prefix.pch"; sourceTree = "<group>"; };
+		8714C46A1509884900E72D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8714C46B1509884900E72D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8714C46E1509884900E72D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8714C4701509884900E72D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8714C4711509884900E72D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8714C4781509898200E72D53 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8714C4791509898200E72D53 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8714C47B1509898E00E72D53 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8714C47C1509898E00E72D53 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8714C48C15098B0600E72D53 /* EdgeLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EdgeLine.png; sourceTree = "<group>"; };
+		8714C48D15098B0600E72D53 /* RoundEdgeLower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundEdgeLower.png; sourceTree = "<group>"; };
+		8714C48E15098B0600E72D53 /* RoundEdgeLower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RoundEdgeLower@2x.png"; sourceTree = "<group>"; };
+		8714C48F15098B0600E72D53 /* RoundEdgeUpper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundEdgeUpper.png; sourceTree = "<group>"; };
+		8714C49015098B0600E72D53 /* RoundEdgeUpper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RoundEdgeUpper@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8714C4541509884900E72D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8714C45C1509884900E72D53 /* UIKit.framework in Frameworks */,
+				8714C45E1509884900E72D53 /* Foundation.framework in Frameworks */,
+				8714C4601509884900E72D53 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8714C44C1509884900E72D53 = {
+			isa = PBXGroup;
+			children = (
+				8714C4611509884900E72D53 /* TowPaneViewController */,
+				8714C45A1509884900E72D53 /* Frameworks */,
+				8714C4581509884900E72D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8714C4581509884900E72D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8714C4571509884900E72D53 /* TowPaneViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8714C45A1509884900E72D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8714C45B1509884900E72D53 /* UIKit.framework */,
+				8714C45D1509884900E72D53 /* Foundation.framework */,
+				8714C45F1509884900E72D53 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8714C4611509884900E72D53 /* TowPaneViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8714C49615098B0900E72D53 /* resources */,
+				8714C46A1509884900E72D53 /* AppDelegate.h */,
+				8714C46B1509884900E72D53 /* AppDelegate.m */,
+				8714C46D1509884900E72D53 /* MainStoryboard.storyboard */,
+				8714C4701509884900E72D53 /* ViewController.h */,
+				8714C4711509884900E72D53 /* ViewController.m */,
+				8714C4621509884900E72D53 /* Supporting Files */,
+				8714C4781509898200E72D53 /* MasterViewController.h */,
+				8714C4791509898200E72D53 /* MasterViewController.m */,
+				8714C47B1509898E00E72D53 /* DetailViewController.h */,
+				8714C47C1509898E00E72D53 /* DetailViewController.m */,
+			);
+			path = TowPaneViewController;
+			sourceTree = "<group>";
+		};
+		8714C4621509884900E72D53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8714C4631509884900E72D53 /* TowPaneViewController-Info.plist */,
+				8714C4641509884900E72D53 /* InfoPlist.strings */,
+				8714C4671509884900E72D53 /* main.m */,
+				8714C4691509884900E72D53 /* TowPaneViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8714C49615098B0900E72D53 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8714C48C15098B0600E72D53 /* EdgeLine.png */,
+				8714C48D15098B0600E72D53 /* RoundEdgeLower.png */,
+				8714C48E15098B0600E72D53 /* RoundEdgeLower@2x.png */,
+				8714C48F15098B0600E72D53 /* RoundEdgeUpper.png */,
+				8714C49015098B0600E72D53 /* RoundEdgeUpper@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8714C4561509884900E72D53 /* TowPaneViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8714C4751509884900E72D53 /* Build configuration list for PBXNativeTarget "TowPaneViewController" */;
+			buildPhases = (
+				8714C4531509884900E72D53 /* Sources */,
+				8714C4541509884900E72D53 /* Frameworks */,
+				8714C4551509884900E72D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowPaneViewController;
+			productName = TowPaneViewController;
+			productReference = 8714C4571509884900E72D53 /* TowPaneViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8714C44E1509884900E72D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "いります電算企画";
+			};
+			buildConfigurationList = 8714C4511509884900E72D53 /* Build configuration list for PBXProject "TowPaneViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8714C44C1509884900E72D53;
+			productRefGroup = 8714C4581509884900E72D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8714C4561509884900E72D53 /* TowPaneViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8714C4551509884900E72D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8714C4661509884900E72D53 /* InfoPlist.strings in Resources */,
+				8714C46F1509884900E72D53 /* MainStoryboard.storyboard in Resources */,
+				8714C49115098B0600E72D53 /* EdgeLine.png in Resources */,
+				8714C49215098B0600E72D53 /* RoundEdgeLower.png in Resources */,
+				8714C49315098B0600E72D53 /* RoundEdgeLower@2x.png in Resources */,
+				8714C49415098B0600E72D53 /* RoundEdgeUpper.png in Resources */,
+				8714C49515098B0600E72D53 /* RoundEdgeUpper@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8714C4531509884900E72D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8714C4681509884900E72D53 /* main.m in Sources */,
+				8714C46C1509884900E72D53 /* AppDelegate.m in Sources */,
+				8714C4721509884900E72D53 /* ViewController.m in Sources */,
+				8714C47A1509898200E72D53 /* MasterViewController.m in Sources */,
+				8714C47D1509898E00E72D53 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8714C4641509884900E72D53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8714C4651509884900E72D53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8714C46D1509884900E72D53 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8714C46E1509884900E72D53 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8714C4731509884900E72D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8714C4741509884900E72D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8714C4761509884900E72D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowPaneViewController/TowPaneViewController-Prefix.pch";
+				INFOPLIST_FILE = "TowPaneViewController/TowPaneViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8714C4771509884900E72D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowPaneViewController/TowPaneViewController-Prefix.pch";
+				INFOPLIST_FILE = "TowPaneViewController/TowPaneViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8714C4511509884900E72D53 /* Build configuration list for PBXProject "TowPaneViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8714C4731509884900E72D53 /* Debug */,
+				8714C4741509884900E72D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8714C4751509884900E72D53 /* Build configuration list for PBXNativeTarget "TowPaneViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8714C4761509884900E72D53 /* Debug */,
+				8714C4771509884900E72D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8714C44E1509884900E72D53 /* Project object */;
+}
