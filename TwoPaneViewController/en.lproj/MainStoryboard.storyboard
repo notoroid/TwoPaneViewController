@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="bk7-hX-MmY">
+                                <rect key="frame" x="0.0" y="0.0" width="384" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="pVd-RG-UIJ">
+                                <rect key="frame" x="384" y="0.0" width="384" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="EdgeLine.png" id="w8Z-21-qPM">
+                                <rect key="frame" x="384.5" y="0.0" width="1" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RoundEdgeUpper.png" id="S0w-J2-MX5">
+                                <rect key="frame" x="375" y="0.0" width="20" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RoundEdgeLower.png" id="kcK-Ie-9Kx">
+                                <rect key="frame" x="375" y="993" width="20" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="ViewDetailBase" destination="pVd-RG-UIJ" id="H4A-AG-Am4"/>
+                        <outlet property="viewMasterBase" destination="bk7-hX-MmY" id="RWf-PY-dst"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+        <scene sceneID="qQc-ox-3IX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ngs-JR-gQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="CpB-xi-ET6" customClass="MasterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Thf-oD-Ofu">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Master" id="TjZ-hX-dWY"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1732" y="-788"/>
+        </scene>
+        <scene sceneID="yIq-pX-GfN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOA-Ff-Rvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="master" definesPresentationContext="YES" id="Qmt-fh-RYY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fBa-9w-Cvt">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CpB-xi-ET6" kind="relationship" relationship="rootViewController" id="bHD-Oq-fWU"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="752" y="-791"/>
+        </scene>
+        <scene sceneID="AEE-07-B6c">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMu-ut-sBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="FKA-YL-JNk" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dcq-fD-NQi">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detail" id="QBy-cB-dqR"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1724" y="394"/>
+        </scene>
+        <scene sceneID="cQU-VW-Apf">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOG-HP-ZKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="detail" definesPresentationContext="YES" id="lon-XQ-V2c" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5AI-DW-SC8">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FKA-YL-JNk" kind="relationship" relationship="rootViewController" id="W4m-Ly-ziu"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="744" y="394"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EdgeLine.png" width="1" height="1024"/>
+        <image name="RoundEdgeLower.png" width="20" height="11"/>
+        <image name="RoundEdgeUpper.png" width="20" height="11"/>
+    </resources>
+    <classes>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+        </class>
+        <class className="MasterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
